@@ -8,7 +8,7 @@ import { retry, catchError } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class ServiceService {
-  api = 'http://localhost:3000/';
+  api = 'http://localhost:3000/employees/';
   constructor(private http:HttpClient) { }
 
   httpOptions = {
