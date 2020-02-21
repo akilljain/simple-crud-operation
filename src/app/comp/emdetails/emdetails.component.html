@@ -1,0 +1,15 @@
+<div class="form-horizontal" *ngIf="employeeDetail | async as item">  
+  <h3>Employee Detail</h3>  
+  <br>  
+  <label class="col-xs-4 control-label">ID: </label>  
+  <p class="form-control-static">{{item[0].id}}</p>  
+  
+  <label class="col-xs-4 control-label">NAME:</label>  
+  <p class="form-control-static">{{item[0].name}}</p>  
+  
+  <label class="col-xs-4 control-label">EMAIL:</label>  
+  <p class="form-control-static">{{item[0].email}}</p>  
+    
+  <label class="col-xs-4 control-label">PHONE:</label>  
+  <p class="form-control-static">{{item[0].phone}}</p>  
+</div>  

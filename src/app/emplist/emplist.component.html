@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <table border="4px">
+        <tr *ngFor="let emp of emplist">
+          <td>{{emp.id}}</td>
+          <td>{{emp.name | uppercase}}</td>
+          <td>{{emp.email}}</td>
+          <td>{{emp.phone}}</td>
+          <td>
+          <button (click)="delete(emp.id)">Delete</button>
+          <a class="edit" routerLink="/edit/{{emp.id}}">Edit</a>
+        </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

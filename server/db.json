@@ -1,0 +1,58 @@
+{
+  "employees": [
+    {
+      "id": 2,
+      "name": "Black W24",
+      "email": "black-widow@mcu.com",
+      "phone": "001-123-456710"
+    },
+    {
+      "id": 3,
+      "name": "Black Widow7",
+      "email": "black-widow@mcu.com",
+      "phone": "001-123-4568"
+    },
+    {
+      "id": 4,
+      "name": "Amar",
+      "email": "Bakery",
+      "phone": "Delhi"
+    },
+    {
+      "id": 5,
+      "name": "5dddddd",
+      "email": "ksknckn",
+      "phone": "lcdl"
+    },
+    {
+      "name": "kmk",
+      "email": "kskm",
+      "phone": "mksk",
+      "id": 6
+    },
+    {
+      "name": "akhi",
+      "email": "jain832@gmail.com",
+      "phone": "5554",
+      "id": 7
+    },
+    {
+      "name": "akhikmskmk",
+      "email": "mkdmksmkd",
+      "phone": "5554",
+      "id": 8
+    },
+    {
+      "name": "somvir",
+      "email": "com@com.com",
+      "phone": "455848451212",
+      "id": 9
+    },
+    {
+      "name": "ddmdk",
+      "email": "kskmk",
+      "phone": "mskmdk",
+      "id": 10
+    }
+  ]
+}

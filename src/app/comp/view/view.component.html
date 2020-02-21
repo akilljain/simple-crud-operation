@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="row">
+    <h2>Portal</h2>
+  </div>
+  <div class="row">
+    <fieldset class="for-panel">
+      <legend>Contact Infro</legend>
+      <div class="row">
+        <div class="col-sm-6">
+          <button (click)="getemplist()" class="btn btn-primary">Get List</button>
+          <br>
+          <br>
+
+        </div>
+      </div>
+
+      <div class="row"></div>
+      <div class="row">
+        <div class="col-sm-6">
+          <app-emlist [empListData]="empList"></app-emlist>
+        </div>
+        <div class="col-sm-6">
+          <app-emdetails></app-emdetails>
+        </div>
+      </div>
+    </fieldset>
+
+
+    
+
+  </div>
+
+  <button (click)="chnageMessage()">Change</button>
+</div>
